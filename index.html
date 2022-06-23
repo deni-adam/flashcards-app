@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="sidebar">
+        <div class="new-card-btn"><button id="new-card-btn">Vytvořit novou kartu</button></div>
+        <ul class="content">
+            <li></li>
+            </div>
+    </section>
+
+    <form class="new-card-form hidden">
+        <label for="hanzi">Znak</label>
+        <input type="text" id="input-hanzi"><br>
+        <label for="pinyin">Pinyin</label>
+        <input type="text" id="input-pinyin"><br>
+        <label for="translation">Překlad</label>
+        <input type="text" id="input-translation"><br>
+
+        <div id="category">Kategorie</div>
+        <select id="category-select">
+            <option id="none-cat">Nezařazeno</option>
+            <option id="hsk-1">HSK 1</option>
+            <option id="hsk-2">HSK 2</option>
+            <option id="hsk-3">HSK 3</option>
+            <option id="hsk-4">HSK 4</option>
+            <option id="hsk-5">HSK 5</option>
+            <option id="hsk-6">HSK 6</option>
+        </select>
+        <button id="cancel-btn">Zrušit</button>
+        <button id="save-btn">Uložit</button>
+    </form>
+
+
+    <!-- takto bude vzpadat flashcard, ktera se vytvori pomoci fce createFlashcard v JS -->
+    <!-- <div class="flashcard"> -->
+        <!-- <div class="flascard-hanzi"></div>
+        <div class="flashcard-pinyin"></div>
+        <div class="flashcard-translation"></div>
+        <div class="flashcard-hsk-cat"></div>
+        <button class="delete-flashcard">Smazat</button> -->
+    <!-- </div> -->
+
+    <div class="overlay hidden"></div>
+
+    <div class="flashcards-box">
+        <div class="flashcard"></div>
+    </div>
+
+    <script src="appii.js"></script>
+</body>
+
+</html>
