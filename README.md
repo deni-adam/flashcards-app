@@ -1,6 +1,8 @@
 ﻿# flashcards-app
-Kartičky na učení se znaků/slovíček v čínštině
-<ol> Plán úprav:
+Kartičky na učení se znaků/slovíček v čínštině </br>
+
+Plán úprav:
+<ol> 
 <li>Zprovoznit "delete button" na vymazání kartičky</li>
 <li>Přidat "edit button" na úpravu kartičky</li>
 <li>Na základě kategorií filtrování kartiček</li>
